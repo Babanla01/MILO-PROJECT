@@ -8,14 +8,9 @@
 .navbar-nav input:focus{
     width: 100%;
 }
-.gallery{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
 .meg img{
-    width: 176px;
-    flex-basis: 176px;
+    /* width: 176px; */
+    flex-basis:1;
     flex-grow: 1;
     flex-shrink: 1;
     filter: grayscale(50%);
@@ -27,6 +22,9 @@
 .abbs{
     background-color: rgb(255, 255, 255,.5);
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
  .main img:hover{
     transform: translateY(-5px);
@@ -40,5 +38,8 @@
 @media (max-width:576px){
     .footer li{
         border-right: none;
+    }
+    .gallery img{
+        width: 90px;
     }
 }
