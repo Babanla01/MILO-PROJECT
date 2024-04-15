@@ -8,13 +8,13 @@
 .navbar-nav input:focus{
     width: 100%;
 }
-.meg img{
+/* .meg img{
     /* width: 176px; */
     flex-basis:1;
     flex-grow: 1;
     flex-shrink: 1;
     filter: grayscale(50%);
-}
+} */
 .meg img:hover{
     filter: none;
     transform: scale(1.01);
