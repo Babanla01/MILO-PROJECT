@@ -30,6 +30,13 @@
     transform: translateY(-5px);
     box-shadow:0 0 10px  grey;
 }
+.idan img{
+    filter: grayscale(50);
+    transition: .3s;
+}
+.idan img:hover{
+    filter: grayscale(0);
+}
 @media (min-width:796px){
     .meg img{
         width: 193px;
